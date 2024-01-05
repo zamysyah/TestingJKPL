@@ -1,0 +1,930 @@
+{
+  "id": "db94d46c-cd19-430f-a439-dd0fb7dcdd32",
+  "version": "2.0",
+  "name": "Unit Integration",
+  "url": "https://demo.evershop.io/",
+  "tests": [{
+    "id": "64cca203-efb4-4874-996c-0f96d6cf11d1",
+    "name": "M-1-311",
+    "commands": [{
+      "id": "3b64859e-2a35-4b41-bfc7-33f761beca1d",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22d26d3f-51ee-442a-be82-ed84980c7bde",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a9158d2-dd5d-4603-a4f8-f4d5334df6e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .button > span",
+      "targets": [
+        ["css=div:nth-child(2) > .button > span", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[2]/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60e5898a-0f10-4476-b634-715e2f0fe038",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listing-tem:nth-child(1) img",
+      "targets": [
+        ["css=.listing-tem:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Alphaboost shoes']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div[2]/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0478fcc1-d455-4971-857c-35dff293d64a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=L",
+      "targets": [
+        ["linkText=L", "linkText"],
+        ["css=div:nth-child(1) > .variant-option-list a", "css:finder"],
+        ["xpath=//a[contains(text(),'L')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/main/div[2]/div[2]/div/div[2]/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'L')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36a8b565-59c5-4f87-a1fd-00ff0c206da5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blue",
+      "targets": [
+        ["linkText=Blue", "linkText"],
+        ["css=div:nth-child(2) > .variant-option-list a", "css:finder"],
+        ["xpath=//a[contains(text(),'Blue')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/main/div[2]/div[2]/div/div[2]/div[2]/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Blue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c6d2df9-bfbc-40a4-bc1d-ae91535d555d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//form[@id='productForm']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c32af871-656f-479a-87f5-3195c640658a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//form[@id='productForm']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a20f8aa-178e-43f5-94c4-73a007f9567e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//form[@id='productForm']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acfdb74a-329a-4ea7-b57f-ef5ba4eb7069",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=VIEW CART (3)",
+      "targets": [
+        ["linkText=VIEW CART (3)", "linkText"],
+        ["css=.add-cart-popup-button", "css:finder"],
+        ["xpath=//a[contains(text(),'VIEW CART (3)')]", "xpath:link"],
+        ["xpath=//div[@id='yladotmyi5']/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cart')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'VIEW CART (3)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "133aa94f-d4f4-4942-80eb-3b19c1847e12",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e777703c-f136-4676-b930-e60cf1cc3b4a",
+    "name": "M-2-312",
+    "commands": [{
+      "id": "4b061bcd-a110-4e47-abab-c62cf2823a3c",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df8e10ce-75e9-41fb-a41f-215ddfb427bc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bd11246-1258-4da3-9b42-415bf4ed28cb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Men",
+      "targets": [
+        ["linkText=Men", "linkText"],
+        ["css=.nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Men')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/men')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Men')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ce19b61-8780-4c72-8e7b-0b46e528a23b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Women",
+      "targets": [
+        ["linkText=Women", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Women')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/women')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Women')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24d499c2-bb19-4328-8b98-771effb96bd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header",
+      "targets": [
+        ["css=.header", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "960434fa-994f-48e9-95dd-a6ee4e980921",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo-icon > svg",
+      "targets": [
+        ["css=.logo-icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "180659c1-7d5c-40b1-bf42-f416e7bac6b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listing-tem:nth-child(1) img",
+      "targets": [
+        ["css=.listing-tem:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Nike air zoom pegasus 35']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b76bc567-e45f-40ae-8450-882a2cddda2b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "968c3734-520c-49b5-8639-e77f35b7f44d",
+    "name": "M-3-313",
+    "commands": [{
+      "id": "5ec0e2b4-d5a2-4158-8c40-80065c44fff4",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a2bb8b6-373f-4355-a67e-71a0b74e0301",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1a77e39-9733-4b7d-81aa-f66cd52a4965",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mini-cart-icon path",
+      "targets": [
+        ["css=.mini-cart-icon path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b945513-7263-498a-ad99-fc1733e46410",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .text-textSubdued > span",
+      "targets": [
+        ["css=tr:nth-child(1) .text-textSubdued > span", "css:finder"],
+        ["xpath=//div[@id='shopping-cart-items']/table/tbody/tr/td/div/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fbdcba6-0f42-470c-99ba-034d049e4323",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0ce726f7-30ba-45dc-ac89-3153c756c641",
+    "name": "M-4-314",
+    "commands": [{
+      "id": "a0114df9-23db-40cb-9d00-cd4b2c635892",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e69e6b1a-1e73-414d-8204-fd8e83cf710e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5eb404c5-ace2-426e-b652-512ea2a1d63e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Men",
+      "targets": [
+        ["linkText=Men", "linkText"],
+        ["css=.nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Men')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/men')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Men')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "80cdc4a7-c5e6-43f3-b837-681d65719783",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listing-tem:nth-child(3) img",
+      "targets": [
+        ["css=.listing-tem:nth-child(3) img", "css:finder"],
+        ["xpath=//img[@alt='Hacked fashion chuck taylor all star']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div[2]/div[2]/div/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b632431d-4137-4300-9189-cc70d10644b9",
+      "comment": "",
+      "command": "click",
+      "target": "name=qty",
+      "targets": [
+        ["name=qty", "name"],
+        ["css=.field-wrapper > input", "css:finder"],
+        ["xpath=//input[@name='qty']", "xpath:attributes"],
+        ["xpath=//form[@id='productForm']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8748b8a2-c8f4-4e1d-a034-e29516fa825f",
+      "comment": "",
+      "command": "type",
+      "target": "name=qty",
+      "targets": [
+        ["name=qty", "name"],
+        ["css=.field-wrapper > input", "css:finder"],
+        ["xpath=//input[@name='qty']", "xpath:attributes"],
+        ["xpath=//form[@id='productForm']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "382c6f5f-7c29-4563-aa73-35d4290738d1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=XL",
+      "targets": [
+        ["linkText=XL", "linkText"],
+        ["css=div:nth-child(1) > .variant-option-list > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'XL')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/main/div[2]/div[2]/div/div[2]/div[2]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'XL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86da377d-6765-4bdb-95a3-a692f5e54a35",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Brown",
+      "targets": [
+        ["linkText=Brown", "linkText"],
+        ["css=div:nth-child(2) > .variant-option-list > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Brown')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/main/div[2]/div[2]/div/div[2]/div[2]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Brown')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "815fb9ae-b743-49c7-8566-46b77c42c28c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button > span",
+      "targets": [
+        ["css=.button > span", "css:finder"],
+        ["xpath=//form[@id='productForm']/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fee2d59-aa07-4c66-b2dd-2f1e0e4e8e1d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.button > span",
+      "targets": [
+        ["css=.button > span", "css:finder"],
+        ["xpath=//form[@id='productForm']/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4331f8c-456a-4060-b455-da6a9614e377",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.button > span",
+      "targets": [
+        ["css=.button > span", "css:finder"],
+        ["xpath=//form[@id='productForm']/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29fdc41e-2d39-49b7-ac89-b2adeb1deb76",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b42670e4-48d4-4c6b-9ea4-c7f635213f4d",
+    "name": "M-5-315",
+    "commands": [{
+      "id": "77e43b8b-4428-48b3-b16c-bad370a1dbb0",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05842ae1-a67d-4fde-992d-78446b085ce0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbc36a1b-6900-42b6-be20-571e1ed83c0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mini-cart-icon > svg",
+      "targets": [
+        ["css=.mini-cart-icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ba2b555-5127-4de9-b5a6-05aa2e4b538c",
+      "comment": "",
+      "command": "click",
+      "target": "name=coupon",
+      "targets": [
+        ["name=coupon", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='coupon']", "xpath:attributes"],
+        ["xpath=//form[@id='couponForm']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b3b5c01-c5de-4c31-8f04-d2de62311035",
+      "comment": "",
+      "command": "type",
+      "target": "name=coupon",
+      "targets": [
+        ["name=coupon", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='coupon']", "xpath:attributes"],
+        ["xpath=//form[@id='couponForm']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "TEST"
+    }, {
+      "id": "d2807ce7-0b0a-4ea9-b49e-4e14b13d4769",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-span-1 > .button > span",
+      "targets": [
+        ["css=.col-span-1 > .button > span", "css:finder"],
+        ["xpath=//form[@id='couponForm']/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Apply')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70d1627a-30d1-463e-afb1-3718402f6b13",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.col-span-1 > .button",
+      "targets": [
+        ["css=.col-span-1 > .button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//form[@id='couponForm']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Apply')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0d551cd-23c1-4e50-901e-bf8edd985a5d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3323b78b-e52b-4ce2-9122-d2cc70b62570",
+    "name": "U-1-311",
+    "commands": [{
+      "id": "c6e226a7-26b3-4863-bec2-9ac0520426c8",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7fabc71c-790d-4c10-ae8c-6fabc9bfaa85",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "672612ca-dbb6-4914-bcb7-06a3f8aaf063",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .button > span",
+      "targets": [
+        ["css=div:nth-child(1) > .button > span", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[2]/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b123aab4-cef8-4bb5-ae68-c2a97c7bb8cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listing-tem:nth-child(1) img",
+      "targets": [
+        ["css=.listing-tem:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Nmd_r1 shoes']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div[2]/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d284fc7-4f56-463d-9dd8-42e54dfc60c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Men",
+      "targets": [
+        ["linkText=Men", "linkText"],
+        ["css=.nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Men')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/men')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Men')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e908e34-6bd7-40ba-8415-4e88feb8fe09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listing-tem:nth-child(5) img",
+      "targets": [
+        ["css=.listing-tem:nth-child(5) img", "css:finder"],
+        ["xpath=//img[@alt='Nike air zoom pegasus 35']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div[2]/div[2]/div/div[5]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86225cee-5724-4cda-a09b-ddeedd677c58",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Women",
+      "targets": [
+        ["linkText=Women", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Women')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/women')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Women')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba850ae6-2247-4882-99cd-330ffd262968",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listing-tem:nth-child(6) img",
+      "targets": [
+        ["css=.listing-tem:nth-child(6) img", "css:finder"],
+        ["xpath=//img[@alt='Custom chuck taylor all star by you']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div[2]/div[2]/div/div[6]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71961c30-a2fb-4aab-88c2-54768f8d39c3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a6dbde5c-c256-495f-9da8-36a68c95ef1a",
+    "name": "U-1-312",
+    "commands": [{
+      "id": "0a85bd32-0132-4555-bd9e-37f823eebd17",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e272bebe-464b-46cf-ad41-1c4c123a97a9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce96ac99-ada8-4e0c-bc2d-9495e6129b23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mini-cart-icon > svg",
+      "targets": [
+        ["css=.mini-cart-icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "42ed8964-0d04-4f87-8a0d-e1d784b57551",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) .text-textSubdued > span",
+      "targets": [
+        ["css=tr:nth-child(3) .text-textSubdued > span", "css:finder"],
+        ["xpath=//div[@id='shopping-cart-items']/table/tbody/tr[3]/td/div/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//tr[3]/td/div/div[2]/div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2da64c0d-ee23-47c3-8c58-76b47d8db1b2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e1556cea-583f-4764-8d69-7960d50a6cbc",
+    "name": "U-1-313",
+    "commands": [{
+      "id": "6902f1e9-314f-426c-97dc-c2ca011beb58",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9758eb70-d69b-4517-8d4f-b522ce640d1d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77222975-d1b0-424a-bf92-1c31678e085d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.self-center:nth-child(3) path",
+      "targets": [
+        ["css=.self-center:nth-child(3) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "394ca9eb-70ff-4116-a22c-ed0f0a7ab5af",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-field-container:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4a98f57-bccc-472c-ae11-a07a47610317",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-field-container:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "zamysyah40@gmail.com"
+    }, {
+      "id": "d21486a4-68ce-4ca2-8be3-adcb0ed09429",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-field-container:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d097a590-0642-4fa3-89da-702a719d5e73",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-field-container:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Syahreza12"
+    }, {
+      "id": "f00b8a90-f54b-4e94-a200-75e89b9bd6cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'SIGN IN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd82c309-4f76-4444-bdbd-6c7b0c2f9f46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.self-center:nth-child(3) path",
+      "targets": [
+        ["css=.self-center:nth-child(3) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "faa74f8e-4c0e-40d8-b029-117a2eda7fcd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "95078826-5726-4cb1-a4d1-be312a745e7e",
+    "name": "U-1-314",
+    "commands": [{
+      "id": "c665ef07-af32-4c87-a08f-2d272a07939b",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afb43a60-95ff-4d4a-9116-6bbfd1102dc8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4a001d1-05e9-46d9-8e88-8888e5cae4e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav",
+      "targets": [
+        ["css=.nav", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div[2]/ul", "xpath:idRelative"],
+        ["xpath=//ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4efec50d-5473-4abc-b859-bb646ec10d10",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Men",
+      "targets": [
+        ["linkText=Men", "linkText"],
+        ["css=.nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Men')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/men')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Men')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1f7e919-8637-447e-aeab-5b9a318551b3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Women",
+      "targets": [
+        ["linkText=Women", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Women')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/women')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Women')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c31dd2cf-5511-415c-8396-0c51060e6933",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo-icon path:nth-child(2)",
+      "targets": [
+        ["css=.logo-icon path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f112417b-9f54-42f5-9278-7fa5f3a3434a",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .button > span",
+      "targets": [
+        ["css=div:nth-child(1) > .button > span", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[2]/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4adc9b2-cd81-4a32-9135-3897c0461593",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listing-tem:nth-child(1) img",
+      "targets": [
+        ["css=.listing-tem:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Nmd_r1 shoes']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div[2]/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba19aee5-6aeb-430d-8fa8-0c369da43c86",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=XL",
+      "targets": [
+        ["linkText=XL", "linkText"],
+        ["css=div:nth-child(1) > .variant-option-list > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'XL')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/main/div[2]/div[2]/div/div[2]/div[2]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'XL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "694256a2-1b6f-4564-9dc7-811d86dd91bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=White",
+      "targets": [
+        ["linkText=White", "linkText"],
+        ["css=div:nth-child(2) > .variant-option-list > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'White')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/main/div[2]/div[2]/div/div[2]/div[2]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[10]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'White')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2744e60-371d-4b3a-9c46-f61669486ba7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button > span",
+      "targets": [
+        ["css=.button > span", "css:finder"],
+        ["xpath=//form[@id='productForm']/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79fbe394-835f-4bd8-8c90-efdbbd957c1b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.button > span",
+      "targets": [
+        ["css=.button > span", "css:finder"],
+        ["xpath=//form[@id='productForm']/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "177472e5-45f2-48ab-8464-440731dea523",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.button > span",
+      "targets": [
+        ["css=.button > span", "css:finder"],
+        ["xpath=//form[@id='productForm']/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a77f7d7-8b98-479c-99f3-3ac954cc2045",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dbb7571e-6307-41c0-a9e7-8d461fad17fb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://app.crowd.dev/", "https://demo.evershop.io/", "https://app.crowd.dev/auth/signin", "https://app.crowd.dev/auth/signup"],
+  "plugins": []
+}
