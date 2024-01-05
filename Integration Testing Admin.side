@@ -1,0 +1,411 @@
+{
+  "id": "4ef024fc-d8ce-4e87-b6d3-68fab04322ec",
+  "version": "2.0",
+  "name": "INTEGRATION TESTING ADMIN",
+  "url": "https://demo.evershop.io/admin",
+  "tests": [{
+    "id": "b98b734a-5576-4ae1-9d12-eff93cec4c81",
+    "name": "A-1-311",
+    "commands": [{
+      "id": "9509d3c5-2733-43b1-be8a-9d82cbe33155",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/admin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae322c89-f262-4e59-9a73-bb0981ebe220",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ded94b2-d6ee-4078-aa04-3b2c8c5ccc49",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dashboard",
+      "targets": [
+        ["linkText=Dashboard", "linkText"],
+        ["css=.active > .flex", "css:finder"],
+        ["xpath=//a[contains(text(),'Dashboard')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/admin')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4ea145a8-31eb-4864-8c8a-dd28fe94104c",
+    "name": "A-1-312",
+    "commands": [{
+      "id": "f38bbed8-21fe-4ea0-98d8-80715ca51772",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/admin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f46d8b94-06ed-496e-bf98-60369bf07ca7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6a4ebfb-2cad-4555-89e8-7a0890c3828e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=New Product",
+      "targets": [
+        ["linkText=New Product", "linkText"],
+        ["css=.root-nav-item:nth-child(1) .nav-item:nth-child(2) > .flex", "css:finder"],
+        ["xpath=//a[contains(text(),'New Product')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/admin/products/new')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'New Product')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "12942696-a28f-42f0-9678-e91e239aa0c0",
+    "name": "A-1-313",
+    "commands": [{
+      "id": "69b7eed8-ac5e-4d51-915d-7f3934846dc1",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/admin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f453390-e5cc-4afe-a832-9cca29aa1266",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5622e4bc-223e-4cf2-b1fe-819712c72f56",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=New Coupon",
+      "targets": [
+        ["linkText=New Coupon", "linkText"],
+        ["css=.root-nav-item:nth-child(1) .nav-item:nth-child(3) > .flex", "css:finder"],
+        ["xpath=//a[contains(text(),'New Coupon')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/ul/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/admin/coupon/new')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'New Coupon')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "159a444c-fd09-49b6-89ab-f32319340203",
+    "name": "A-1-314",
+    "commands": [{
+      "id": "7d450be2-883e-4719-87bc-0dd8f39234e2",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/admin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f5c05aa-523f-4d24-a34c-8b31d7297ed8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5c562b0-4276-4071-8a1b-8537366fd29d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Products",
+      "targets": [
+        ["linkText=Products", "linkText"],
+        ["css=.root-nav-item:nth-child(2) .nav-item:nth-child(1) > .flex", "css:finder"],
+        ["xpath=//a[contains(text(),'Products')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/admin/products')])[2]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7197523c-d6cf-486b-b4a5-3f34587dc51b",
+    "name": "A-1-315",
+    "commands": [{
+      "id": "95db63b8-d07c-470a-8942-db99b8b832d4",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/admin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19f9fe76-bce6-4c51-8c52-13564189fdde",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6c263b0-6218-4871-8644-68acf467bf28",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Categories",
+      "targets": [
+        ["linkText=Categories", "linkText"],
+        ["css=.root-nav-item:nth-child(2) .nav-item:nth-child(2) > .flex", "css:finder"],
+        ["xpath=//a[contains(text(),'Categories')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/ul/li[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/admin/categories')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Categories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f900d5f6-7f72-49a5-8bba-360aa04b21f2",
+    "name": "A-1-316",
+    "commands": [{
+      "id": "6930451c-b4dd-4921-af42-ffdb1caaf4e9",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/admin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2c5be22-c237-45c2-8890-47cf94977a1f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "958x1031",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cc055c4-c7ab-4ccd-b946-17cc284691cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Collections",
+      "targets": [
+        ["linkText=Collections", "linkText"],
+        ["css=.root-nav-item:nth-child(2) .nav-item:nth-child(3) > .flex", "css:finder"],
+        ["xpath=//a[contains(text(),'Collections')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/ul/li[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/admin/collections')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Collections')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7e5fbb09-1bdb-4c95-8bf6-264c28c52d51",
+    "name": "A-1-317",
+    "commands": [{
+      "id": "a2e5be20-781a-41f1-921a-1e1009ca1fc5",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/admin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29ea3989-17fd-4b2f-b65a-e09f9b628363",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "958x1031",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bbcc9cf-eb98-45f4-80b2-136df7a37d95",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Attributes",
+      "targets": [
+        ["linkText=Attributes", "linkText"],
+        ["css=.nav-item:nth-child(4) > .justify-left", "css:finder"],
+        ["xpath=//a[contains(text(),'Attributes')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/ul/li[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/admin/attributes')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Attributes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "334dabba-6bae-47f7-a3f8-b5027a5ee876",
+    "name": "A-1-318",
+    "commands": [{
+      "id": "9ec83a76-1816-4988-98d5-91aceb8bbc2d",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/admin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62142411-d2e2-4b6c-bcee-b50d4f7133eb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "958x1031",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51c8fc2d-5d1e-434c-98d9-1050ec91dd9e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Orders",
+      "targets": [
+        ["linkText=Orders", "linkText"],
+        ["css=.root-nav-item:nth-child(3) > .item-group .flex", "css:finder"],
+        ["xpath=//a[contains(text(),'Orders')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/ul/li[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/admin/orders')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Orders')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cda91c67-0adf-4575-8c15-f01533071f40",
+    "name": "A-1-319",
+    "commands": [{
+      "id": "a93751f4-06d0-45a8-bb95-bb2e49c1a4de",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/admin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afe2a119-e175-491f-bdbc-fa808093bafb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "958x1031",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e108dcc-ff23-451b-986e-a4394f4d376f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Customers",
+      "targets": [
+        ["linkText=Customers", "linkText"],
+        ["css=.root-nav-item:nth-child(4) > .item-group .flex", "css:finder"],
+        ["xpath=//a[contains(text(),'Customers')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/ul/li[4]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/admin/customers')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Customers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "22b269d1-9d3d-415e-8ff8-5b50891e9218",
+    "name": "A-1-320",
+    "commands": [{
+      "id": "c03606c2-0ca3-4727-9426-2f62d9720e98",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/admin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39a02a64-418b-4f4f-a047-3d1f1a4669a4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "958x1031",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27d2822e-09c0-4eaf-92ad-fc532743c8f8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Coupons",
+      "targets": [
+        ["linkText=Coupons", "linkText"],
+        ["css=.root-nav-item:nth-child(5) > .item-group .flex", "css:finder"],
+        ["xpath=//a[contains(text(),'Coupons')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/ul/li[5]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/admin/coupons')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Coupons')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4062f524-fac5-40fd-a346-96707e754267",
+    "name": "A-1-321",
+    "commands": [{
+      "id": "f9ca5bca-df25-48a7-ace8-278a98113124",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/admin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "974e698b-65c6-4b72-aaa0-87be27861421",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "958x1031",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c8d860c-23f6-4846-8ed1-ef216c20c264",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pages",
+      "targets": [
+        ["linkText=Pages", "linkText"],
+        ["css=.root-nav-item:nth-child(6) > .item-group .flex", "css:finder"],
+        ["xpath=//a[contains(text(),'Pages')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/ul/li[6]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/admin/pages')]", "xpath:href"],
+        ["xpath=//li[6]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pages')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "32c2f746-2b18-4065-b4c4-5e0f0e102c8d",
+    "name": "A-1-322",
+    "commands": [{
+      "id": "ebd64688-5492-406d-8c03-9e2d2eed13d9",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.evershop.io/admin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28e8e3e7-3e6f-4d27-8c67-02cf377eff0d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "958x1031",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7064aa66-4863-4c39-ae97-603574638f13",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2)",
+      "targets": [
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Setting')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/ul/li[7]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/admin/setting/store')]", "xpath:href"],
+        ["xpath=//li[7]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1e127c32-9cd3-4f8e-9077-98fffa560fe3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://demo.evershop.io/"],
+  "plugins": []
+}
