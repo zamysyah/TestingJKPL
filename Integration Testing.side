@@ -1,0 +1,1489 @@
+{
+  "id": "911b7f68-cc5a-4c85-87e8-45a35bebe03d",
+  "version": "2.0",
+  "name": "Integration Testing",
+  "url": "https://demo.evershop.io",
+  "tests": [{
+    "id": "41358d37-cca5-4a7c-9785-510492d59ffe",
+    "name": "M1-311",
+    "commands": [{
+      "id": "7dab6c03-3e69-4b64-ae36-abf230911b3b",
+      "comment": "",
+      "command": "open",
+      "target": "/men",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4242ab19-b8df-4042-a23e-038e468d2449",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a4a7216-5c0c-43c3-a092-75efbb534a0e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.max:nth-child(3)",
+      "targets": [
+        ["css=.max:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='594']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div/div/div[2]/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "594"
+    }, {
+      "id": "5e8fc5f5-a6af-4dd0-a190-b5dcc705c378",
+      "comment": "",
+      "command": "click",
+      "target": "css=.max:nth-child(3)",
+      "targets": [
+        ["css=.max:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='594']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div/div/div[2]/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cab0feba-40ed-4450-b5f1-87295099f10f",
+    "name": "M1-312",
+    "commands": [{
+      "id": "ded0ebd8-e8cb-48ee-bc00-5a65411aea86",
+      "comment": "",
+      "command": "open",
+      "target": "/men",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7d7f554-71d8-439c-986a-bf20ff43fe25",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46f31e80-bbb4-4ce9-b344-82dbde679f3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c58a0b7-d54d-4921-844e-1a43926c1e83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "919aaba6-d374-41a2-b3f5-c03c65f8301e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(1) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7484120d-f6e8-4499-b6a8-7ab254da5ed5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(1) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(1) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "51ff0031-aab5-496a-a46d-ae282af677c2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(4) .filter-option",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(4) .filter-option", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div/div/div[3]/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Blue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "caa7bfcc-bd8a-4c87-bdf4-10bba66c02c3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(4) .filter-option",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(4) .filter-option", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div/div/div[3]/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Blue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7b0f630-8ddc-448c-b083-fd33380f5495",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(4) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(4) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a25e9279-df2c-40e1-9cde-bf252a3e4d34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(4) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(4) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3896d2f-fdcb-479c-8b4e-58d129626997",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "caa608f5-7a05-4e36-aec2-812124aa29eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a153426-5208-4f21-baf6-f4f67be67dde",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "490505bd-aa1c-46bd-9a04-41884ea38ac7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a136841c-e303-4e22-a99a-2488a70e9827",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "515bba0e-ab99-495e-92a7-7bec4f81a003",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-05:nth-child(6) svg",
+      "targets": [
+        ["css=.mt-05:nth-child(6) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c0315c9-1755-42a0-b764-5e3648b6cdab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-05:nth-child(6) svg",
+      "targets": [
+        ["css=.mt-05:nth-child(6) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e8e52c6-b4f4-4ddf-b1d4-3c53dd7f84a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-05:nth-child(7) svg",
+      "targets": [
+        ["css=.mt-05:nth-child(7) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d9b1ab3-64a7-4e41-aea1-09a7e0c62fe1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-05:nth-child(7) svg",
+      "targets": [
+        ["css=.mt-05:nth-child(7) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "05d65fdd-d4f3-4ca5-b86d-3a8952659170",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-05:nth-child(8) svg",
+      "targets": [
+        ["css=.mt-05:nth-child(8) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "67a47a3d-8fab-4c37-9527-cf9653df1486",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-05:nth-child(8) svg",
+      "targets": [
+        ["css=.mt-05:nth-child(8) svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "db60746b-165c-4085-a332-d4fb183a5b1d",
+    "name": "M1-313",
+    "commands": [{
+      "id": "61524a24-79b4-496f-8009-02642d7525c0",
+      "comment": "",
+      "command": "open",
+      "target": "/men",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a234037a-5c1a-4008-b2a4-5ccdff15d4bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "144ed708-52e2-4c53-9540-ddd4017de80a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(1) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(1) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "650b6a83-c3e3-4c7c-a451-e2e5c6aaa042",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(1) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(1) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2468468-05b2-432e-907f-bb4bb01441c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(2) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b412d7a9-bbfd-4ca8-aca4-be88ea6d87bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(2) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "477a1dea-5faf-45a4-8f5b-ca0673da0873",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(3) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(3) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd423d41-4b78-4781-8099-eecbbfd13133",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(3) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(3) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "31acb6a7-5ad3-4483-8f40-5b9af2237d68",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffc50d7e-257d-4e5f-aa9c-be0bf7884667",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bda8d7ef-519e-4a4a-8b74-652c8057aaa8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd69011f-4731-4821-b67b-8b51f9486b29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(5) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(5) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5a1e5fe-6a5d-4be5-8f9b-8f388f86fd61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(5) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(5) path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5ae93b90-6873-4ae2-8989-a883616fba96",
+    "name": "M1-314",
+    "commands": [{
+      "id": "8404ccd6-77f5-4ed8-bf6a-7bf04fcabe43",
+      "comment": "",
+      "command": "open",
+      "target": "/men",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bce0d755-554c-4def-aa1b-586ba6c25248",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cbd5357-ee0c-4fe2-8298-caf60b837fc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(5) .mt-05:nth-child(1) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(5) .mt-05:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3199d627-969b-46c4-a0a3-fcfa09b92bf2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(5) .mt-05:nth-child(1) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(5) .mt-05:nth-child(1) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5563a51-300c-424e-bb08-e81ac7c46677",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.attribute-filter:nth-child(5) .mt-05:nth-child(1) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(5) .mt-05:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "92e1600c-8dec-4b10-8ca2-0e9675db2385",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(5) .mt-05:nth-child(2) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(5) .mt-05:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "699af884-ee6a-41a8-8c38-0ef1ee2ff924",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(5) .mt-05:nth-child(2) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(5) .mt-05:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "899dac78-1c6f-4fc2-99c1-1d6cd35cab81",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Converse",
+      "targets": [
+        ["linkText=Converse", "linkText"],
+        ["css=.attribute-filter:nth-child(5) .mt-05:nth-child(1) > .flex", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div/div/div[5]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[16]", "xpath:href"],
+        ["xpath=//div[5]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Converse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d8cb56f-8250-499a-beeb-15e41d0bfb40",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Converse",
+      "targets": [
+        ["linkText=Converse", "linkText"],
+        ["css=.attribute-filter:nth-child(5) .mt-05:nth-child(1) > .flex", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div/div/div[5]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[16]", "xpath:href"],
+        ["xpath=//div[5]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Converse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5cd881b6-7c61-4354-9fda-442303cb6b49",
+    "name": "M1-315",
+    "commands": [{
+      "id": "ebf39c49-6851-4391-be84-f3a9c08d015c",
+      "comment": "",
+      "command": "open",
+      "target": "/men",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf4d220f-5e17-452b-a60b-12ed949827dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1141397-e6ff-46ea-8b7b-0505c62b96f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-field",
+      "targets": [
+        ["css=.form-field", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div[2]/div/div/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98e51c05-27e3-4561-9c9b-b431e747a5fe",
+      "comment": "",
+      "command": "select",
+      "target": "css=.form-field",
+      "targets": [],
+      "value": "label=Price"
+    }]
+  }, {
+    "id": "cdfed8f2-cdd6-46e1-ae2e-4d78f0673bed",
+    "name": "M1-316",
+    "commands": [{
+      "id": "9edd3370-e23f-4c68-9251-2d15c4bc6dfc",
+      "comment": "",
+      "command": "open",
+      "target": "/men",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f364c0e3-58ad-4c19-872b-dc9c36b0dd08",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc7be4e9-60b8-426c-b7ab-a2c4908b90a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-field",
+      "targets": [
+        ["css=.form-field", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div[2]/div/div/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95a8bc2b-5fac-4f42-b2df-a327b84d3569",
+      "comment": "",
+      "command": "select",
+      "target": "css=.form-field",
+      "targets": [],
+      "value": "label=Name"
+    }]
+  }, {
+    "id": "a7a7d24f-6ed4-4f40-9485-5e8b72882278",
+    "name": "W1-311",
+    "commands": [{
+      "id": "c23a54b7-7f88-40d2-8048-96c15eb9de69",
+      "comment": "",
+      "command": "open",
+      "target": "/women",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9dfecbb0-be8f-41a8-a3a9-2b6b62e0ad71",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4ee1348-12a3-4144-a3d4-f420196e7129",
+      "comment": "",
+      "command": "type",
+      "target": "css=.max:nth-child(3)",
+      "targets": [
+        ["css=.max:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='455']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div/div/div[2]/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "455"
+    }, {
+      "id": "f151b04f-2411-436e-aa18-54464ef7ad2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.max:nth-child(3)",
+      "targets": [
+        ["css=.max:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='455']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div/div/div[2]/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4356aef4-787d-47ae-a15d-9003bc74cf60",
+    "name": "W1-312",
+    "commands": [{
+      "id": "e8da1e0c-4428-4f4e-87f5-ea8406a04473",
+      "comment": "",
+      "command": "open",
+      "target": "/women",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf03f02a-8de1-4473-8566-4cac58879ee5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab80e4e7-37e2-4b60-9ce4-bd685072e391",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(1) .filter-option",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(1) .filter-option", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div/div/div[3]/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Purple')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e94209b3-c676-4473-a840-c76980e7abbc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(1) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(1) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "48558915-1470-42eb-a34e-b6768647d3c7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f197b93-c42a-45fd-ad5e-4d16e75cd004",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfbd1cbf-3a0e-4519-9710-081afbd8d168",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d39ce04-8289-4daf-9218-3437c964a7c4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfb16562-0d28-4e10-a74a-018ecbe835db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e02568b9-3833-4512-8b17-773dc07354e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff62f849-655f-4eec-9369-2e170462584c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(4) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(4) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9f905cb-7377-477c-9f2a-ac45444f47d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(4) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(4) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f746210e-3110-42ce-9c9b-b740de169853",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd9d508e-8591-4e06-9f68-ae3b0d0ac03e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f50a638-ae10-4795-916a-928fed272c98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "17625173-59e8-40fc-93e9-bcf3d5c793e7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "207c0889-cf6a-4f18-8c54-5f118616c22f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-05:nth-child(6) svg",
+      "targets": [
+        ["css=.mt-05:nth-child(6) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "96dccb6b-0a83-406a-bc94-a1fad72ae567",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-05:nth-child(6) path",
+      "targets": [
+        ["css=.mt-05:nth-child(6) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed691c2f-4e9a-477a-a237-8f8e875645f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-05:nth-child(7) svg",
+      "targets": [
+        ["css=.mt-05:nth-child(7) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfe8c3d6-7d02-4f3b-876c-9dfba1b6c13d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-05:nth-child(7) svg",
+      "targets": [
+        ["css=.mt-05:nth-child(7) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d39bc0b-3a40-46d4-82d2-fc96a6e0679f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-05:nth-child(8) svg",
+      "targets": [
+        ["css=.mt-05:nth-child(8) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c512619f-3f78-4bdf-af32-dcbc4bf74f53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-05:nth-child(8) path",
+      "targets": [
+        ["css=.mt-05:nth-child(8) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "983d6616-2d2f-4ef3-b116-781beb261232",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Red",
+      "targets": [
+        ["linkText=Red", "linkText"],
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) > .flex", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div/div/div[3]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Red')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d583a4a8-293b-478e-a558-79c29e347824",
+    "name": "W1-313",
+    "commands": [{
+      "id": "93b94269-6e51-4c38-ba72-ab5150b20baf",
+      "comment": "",
+      "command": "open",
+      "target": "/women",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8de0babe-38e7-459f-a3a6-b8fa7f09109e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "716fd4a7-b6d7-4e77-be4d-d99bd365bc9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(1) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5088f81a-14e9-4a75-811a-58ce2b373948",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(1) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(1) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb3ada96-100d-4359-b0aa-f22a94e7ff22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(2) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8cc46e4-85ad-4f7e-87fc-4fa11140c335",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(2) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d97a5ca-bb7d-4191-83c8-e6f31f7f848a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(2) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "464c305d-b50d-4817-93ae-58d6d8eeb358",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(3) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(3) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "50383599-e900-4a17-87d2-8f41dfebf2c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(3) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(3) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c474dee-1ca6-412c-a2ce-c52bdf895970",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "40d61438-faa5-4a54-85cf-29de251471e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b998b9f-2e63-4c8c-8f94-e37946d154b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "dab71064-af51-4fcb-b040-01594f19885a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0517c93d-48b4-44b5-874f-88e409b175c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(5) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(5) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3361396e-47d9-4b37-972d-b5e952eb5fcd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(5) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(5) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "38eec651-4cdf-4feb-aa27-42820141eec3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(5) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(5) svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a4514539-ee0a-4e78-abd2-340ad0c595f8",
+    "name": "W1-314",
+    "commands": [{
+      "id": "da0bb8c3-22cd-460f-8363-c417856813cf",
+      "comment": "",
+      "command": "open",
+      "target": "/women",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eec401db-3758-4661-9f58-e1837e0f7d72",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d792eb4d-1538-4058-8398-cdd941c71690",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(5) .mt-05:nth-child(1) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(5) .mt-05:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "983bef55-f737-4f19-b3a7-7f236deaf15b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(5) .mt-05:nth-child(1) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(5) .mt-05:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "63be6f49-54c1-408a-8ffa-a576cc471c09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(5) .mt-05:nth-child(2) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(5) .mt-05:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9558a4ef-3608-4623-b9c8-3017af063edd",
+    "name": "W1-315",
+    "commands": [{
+      "id": "40c32040-a340-4873-afc8-0222529ab1bd",
+      "comment": "",
+      "command": "open",
+      "target": "/women",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24394059-e940-40c3-84d8-f790572b657e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24f60efa-a541-46f4-afa5-24671c084c0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-field",
+      "targets": [
+        ["css=.form-field", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div[2]/div/div/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40188a27-ea04-47c9-9774-f53035b729d8",
+      "comment": "",
+      "command": "select",
+      "target": "css=.form-field",
+      "targets": [],
+      "value": "label=Price"
+    }]
+  }, {
+    "id": "9ef5f426-916c-4763-a64c-632610f5ccbb",
+    "name": "W1-316",
+    "commands": [{
+      "id": "94c85c38-da8a-4d42-94d0-79811d4fb307",
+      "comment": "",
+      "command": "open",
+      "target": "/women",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ca5b938-0ffe-429f-b9de-2b1b12cd63f6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c26510b-42a3-4926-b134-280010d79662",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-field",
+      "targets": [
+        ["css=.form-field", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div[2]/div/div/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4ea0d50-538a-4a0f-89fa-d7549b51dac3",
+      "comment": "",
+      "command": "select",
+      "target": "css=.form-field",
+      "targets": [],
+      "value": "label=Name"
+    }]
+  }, {
+    "id": "8b740f81-71ef-40b5-98ed-b5ef915ef8d9",
+    "name": "K1-311",
+    "commands": [{
+      "id": "b4bb2284-2515-4c0a-9852-217299480f83",
+      "comment": "",
+      "command": "open",
+      "target": "/kids",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ced3a78-10cb-4b56-a844-021a83facd79",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6914977d-70ca-4015-8e27-02d1dd7bc864",
+      "comment": "",
+      "command": "type",
+      "target": "css=.max:nth-child(3)",
+      "targets": [
+        ["css=.max:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='285']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div/div/div[2]/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "285"
+    }, {
+      "id": "7686709d-b7eb-4530-9c92-d67146bb127c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.max:nth-child(3)",
+      "targets": [
+        ["css=.max:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='285']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div/div/div[2]/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3a6cf742-ab2d-411f-b4c7-ae4a2468245f",
+    "name": "K1-312",
+    "commands": [{
+      "id": "a61caf7c-7354-47f9-8442-4febcd8d8a17",
+      "comment": "",
+      "command": "open",
+      "target": "/kids",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b18ca354-eed9-419e-8298-41e40a76eab0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e08ed88-54e7-46f0-949f-18c798ab464a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(1) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf88c2cb-dd23-41b7-8acf-75ef86955c41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(1) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(1) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0239b50-1f29-4585-98c4-7a5b8d44e741",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1670540-edd5-4066-887d-2e3bbabedab2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c188127-d407-440b-bd75-febcd07f8324",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "58447b40-a7d9-4a86-87f3-72b00ab9567d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6143bef-5d61-4bb1-8b1e-555e0923c3ce",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "933f2857-d046-4569-a936-0da409d6c8e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7872854-14a2-4c5d-ac36-40f968e5d753",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(3) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bb307f7-38ef-475c-979b-952dfd822594",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(4) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(4) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "dda45d58-49b7-4b5c-bb41-d68e4f5e5cc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(4) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(4) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "079d2a40-a65e-4d7b-9e45-b4944407eb27",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "25fff723-9629-4b39-91c7-5d8efd1b7e4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b7a66ab-02f6-4bf4-98fa-9e29647b5b0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(3) .mt-05:nth-child(5) path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a93786a1-e494-45ef-947a-ba1dd1ead574",
+    "name": "K1-313",
+    "commands": [{
+      "id": "afcf5e17-56a3-487c-8132-6903b3eca8bc",
+      "comment": "",
+      "command": "open",
+      "target": "/kids",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29cd3f98-6d2c-41e5-b525-9d8f787439c5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d1756b8-9087-494d-93f2-e1f92281bf69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(1) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5536125f-1c0a-4382-b5a4-df78fa3522b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(1) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(1) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e999e1e5-082f-41e7-9921-bf39667eb58f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(1) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a75a6d65-fb32-4c65-96af-2670c875fab1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(2) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c75fb026-f392-4f13-8173-0d25c6584fd1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(2) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b040f584-2e89-48de-9b1b-6e3dd4042a84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(3) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(3) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7992c798-4fe6-4363-a308-3dfa069935bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(3) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(3) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bc48410-b987-4f48-a14e-e577f18bee4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "32d04a8e-357c-42f4-bdce-fe317c8f6d4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(4) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f81a5dcf-afc9-4897-85db-5df8159a3bc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(5) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(5) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "035213fb-b57b-4d0c-a895-0c86c9a91411",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(4) .mt-05:nth-child(5) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(5) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e53d27f-7d02-40da-ae13-aa8152064705",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=S",
+      "targets": [
+        ["linkText=S", "linkText"],
+        ["css=.attribute-filter:nth-child(4) .mt-05:nth-child(3) > .flex", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div/div/div[4]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[10]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'S')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0348c73f-6d5f-4d05-a105-999ff4880da3",
+    "name": "K1-314",
+    "commands": [{
+      "id": "db634f95-9967-4912-84f5-c46708047385",
+      "comment": "",
+      "command": "open",
+      "target": "/kids",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22cff9e4-c6ca-40a7-acba-d4fcc84c1798",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e7f16bc-5997-4771-b2f9-fd6418911ea9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(5) .mt-05:nth-child(1) .filter-option",
+      "targets": [
+        ["css=.attribute-filter:nth-child(5) .mt-05:nth-child(1) .filter-option", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div/div/div[5]/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//div[5]/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Converse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a08f536e-2b6a-4448-96a5-0ce4a5fdfc49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(5) .mt-05:nth-child(1) path",
+      "targets": [
+        ["css=.attribute-filter:nth-child(5) .mt-05:nth-child(1) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "415bca07-906e-445f-b24d-1ab4ca7e0c36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.attribute-filter:nth-child(5) .mt-05:nth-child(2) svg",
+      "targets": [
+        ["css=.attribute-filter:nth-child(5) .mt-05:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "96f101b3-30c0-446e-99a9-ea87ab1b1ba6",
+    "name": "K1-315",
+    "commands": [{
+      "id": "b93956ac-1279-419b-8dde-3503756b9f72",
+      "comment": "",
+      "command": "open",
+      "target": "/kids",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7110cd21-3184-4fea-a5d5-f180fa809ca0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1baccce5-09eb-4e47-ba69-8b19a287628a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-field",
+      "targets": [
+        ["css=.form-field", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div[2]/div/div/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31c3cbd4-fc55-4f6e-ac39-acaccb4bd540",
+      "comment": "",
+      "command": "select",
+      "target": "css=.form-field",
+      "targets": [],
+      "value": "label=Name"
+    }]
+  }, {
+    "id": "c8031008-0e67-4f05-b1d6-9d49a3c6d04b",
+    "name": "K1-316",
+    "commands": [{
+      "id": "94643a24-444b-47e6-96e9-ea605daaaa4c",
+      "comment": "",
+      "command": "open",
+      "target": "/kids",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfc1add7-c844-4871-a67c-93443cdecdac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34e9bd2c-7f36-437e-ba35-0a041208e5b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-field",
+      "targets": [
+        ["css=.form-field", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[3]/div[2]/div/div/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f43f9f9-6cb3-480b-8927-874c5650a009",
+      "comment": "",
+      "command": "select",
+      "target": "css=.form-field",
+      "targets": [],
+      "value": "label=Price"
+    }]
+  }],
+  "suites": [{
+    "id": "aa0a50ce-f2c2-4259-847e-c2e70d8fd0c4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["41358d37-cca5-4a7c-9785-510492d59ffe"]
+  }],
+  "urls": ["https://demo.evershop.io/"],
+  "plugins": []
+}
